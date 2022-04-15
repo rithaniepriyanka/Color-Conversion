@@ -13,28 +13,32 @@ cv2.cvtColor(image,cv2.COLOR_RGB2HSV)
 cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
 cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-
+```
 ### Step2:
+```python
 Convert HSV to RGB and BGR
 using:
 cv2.cvtColor(image,cv2.COLOR_HSV2RGB)
 cv2.cvtColor(image,cv2.COLOR_HSV2BGR)
-
+```
 ### Step3:
+```python
 Convert RGB and BGR to YCrCb
 using:
 cv2.cvtColor(image,cv2.COLOR_RGB2YCrCb)
 cv2.cvtColor(image,cv2.COLOR_BGR2YCrCb)
-
+```
 ### Step4:
+```python
 Split and Merge RGB Image
 using:
 blue = image[:,:,0]
 green = image[:,:,1]
 red = image[:,:,2]
 cv2.merge((blue,green,red))
-
+```
 ### Step5:
+```python
 Split and merge HSV Image
 using:
 hsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
@@ -113,6 +117,7 @@ cv2.destroyAllWindows()
 
 ```
 ## Output:
+
 ### i) BGR and RGB to HSV and GRAY
 
 ![3a1](https://user-images.githubusercontent.com/75235132/163558150-d977cf3d-6862-4c23-949b-9231050171d7.png)
